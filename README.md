@@ -31,21 +31,21 @@ We'll use the raccoon walking animation as an example.
 
 Open blender with the file containing the animation. First, select the mesh you want the model to rotate around. For the raccoon, we'll pick its stomach block. Since it's right between each of the raccoon's legs, it makes sense as the place the raccoon would turn around.
 
-[[/Images/blender/select-rotation-mesh-raccoon.png | alt=image]]
+[[https://raw.githubusercontent.com/wiki/michaelruigrok/3d-iso-spriter/Images/blender/select-rotation-mesh-raccoon.png | alt=image]]
 
 Find the selected mesh in the Outliner (It'll be the one with white text) and rename it to 'Model'. This will be the parent object for the model.
 
-[[/Images/blender/rename-selected-mesh.png | alt=image]]
+[[https://raw.githubusercontent.com/wiki/michaelruigrok/3d-iso-spriter/Images/blender/rename-selected-mesh.png | alt=image]]
 
 Next, select all the other meshes that make up your model. If all your mesh objects are named similarly, e.g. Cube.00X, you can use the select pattern tool to select multiple at once: ` Select > Select Pattern > type in 'Cube*' (Or whatever is equivalent) > hit enter`. Otherwise, manually select the objects with shift+left click in the Outliner view. Make sure you select the parent object 'Model' last, such that it has white text (which indicates it is the 'active object'). 
 
-[[/Images/blender/select-pattern.png | alt=image]]
+[[https://raw.githubusercontent.com/wiki/michaelruigrok/3d-iso-spriter/Images/blender/select-pattern.png | alt=image]]
 
-[[/Images/blender/select-pattern-2.png | alt=image]]
+[[https://raw.githubusercontent.com/wiki/michaelruigrok/3d-iso-spriter/Images/blender/select-pattern-2.png | alt=image]]
 
 Then, with the mouse in the 3D view, press Ctrl+P and Set Parent to `Object (Keep Transform)`. 
 
-[[/Images/blender/set-parent.png | alt=image]]
+[[https://raw.githubusercontent.com/wiki/michaelruigrok/3d-iso-spriter/Images/blender/set-parent.png | alt=image]]
 
 You should be all good to load and run the script as described [above](#Running-Scripts-in-Blender).
 
