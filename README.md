@@ -18,21 +18,21 @@ Even after you've converted your model to sprites, it's a good idea to add it to
 
 First, change the screen layout to Scripting
 
-[[/Images/blender/scripting-screen-mode.png | alt="On the top bar, select the four-rectangles dropdown with 'Default' likely next to it"]]
+![On the top bar, select the four-rectangles dropdown with 'Default' likely next to it](https://raw.githubusercontent.com/wiki/michaelruigrok/3d-iso-spriter/Images/blender/scripting-screen-mode.png)
 
 Select 'Open', and find the scripting file within your file system
 
-[[/Images/blender/open-script.png | alt=image]]
+![The bottom of the left, light grey window, should have a toolbar with the word 'Open' on it](https://raw.githubusercontent.com/wiki/michaelruigrok/3d-iso-spriter/Images/blender/open-script.png)
 
 Click 'Run Script'. You may need to extend the size of the Text Editor window for it to show up on the menu.
 
-[[/Images/blender/run-script.png | alt=image]]
+![Run script appears on the same toolbar, to the right](https://raw.githubusercontent.com/wiki/michaelruigrok/3d-iso-spriter/Images/blender/run-script.png)
 
 ### Legacy Method - Specify model by path
 
 After loading the script in blender, you can specify the absolute file path in the MODEL_FILE variable declaration. 
 
-[[/Images/blender/add-model-file.png | alt=image]]
+![MODEL_FILE appears at the top of the script, under the imports, bundled with all the other global variabls](https://raw.githubusercontent.com/wiki/michaelruigrok/3d-iso-spriter/Images/blender/add-model-file.png)
 
 With this method, files are either outputted in C:\blender-output\ on windows, or ~/blender-output/ on MacOS or other POSIX systems.
 
