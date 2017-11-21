@@ -3,8 +3,7 @@ This script takes an animated blender file and renders each frame of animation
 across the cardinal and ordinal compas points.
 ordinal compass points.
 
-See https://github.com/UQdeco2800/deco2800-2017-rocketpotatoes/wiki/Converting-3D-models-to-Sprites
-for a detailed explanation on its use.
+See README.md for a detailed explanation on its use.
 '''
 from math import pi
 

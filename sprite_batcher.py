@@ -5,8 +5,7 @@ ordinal compass points.
 If you want to export animations, this is the wrong script. Please use
 anim_batcher.py.
 
-See https://github.com/UQdeco2800/deco2800-2017-rocketpotatoes/wiki/Converting-3D-models-to-Sprites
-for a detailed explanation on its use.
+See README.md for a detailed explanation on its use.
 '''
 
 from math import pi
