@@ -48,7 +48,7 @@ Then, with the mouse in the 3D view, press Ctrl+P and Set Parent to `Object (Kee
 
 ![The 'Set Parent To' menu hovers of the 3d view. The mouse hovers over the 'Object (Keep Transform)' entry.](https://raw.githubusercontent.com/wiki/michaelruigrok/3d-iso-spriter/Images/blender/set-parent.png)
 
-You should be all good to load and run the script as described [above](#Running-Scripts-in-Blender).
+You should be all good to load and run the script as described [above](#running-scripts-in-blender).
 
 ## Run from the command line
 Once you have prepared the blender file as above and saved it, you can run the script on the saved blender file like so:
@@ -69,7 +69,7 @@ Even after you've converted your model to sprites, it's a good idea to add it to
 
 ## Running from blender
 ### Using an exported .3DS file
-The easiest way to run the script is to use one of the file dialog options, as described in the [Introduction](#Introduction)
+The easiest way to run the script is to use one of the file dialog options, as described in the [Introduction](#introduction)
 
 ### Legacy Method - Specify model by path
 
