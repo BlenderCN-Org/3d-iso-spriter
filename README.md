@@ -27,25 +27,26 @@ Click 'Run Script'. You may need to extend the size of the Text Editor window fo
 # Converting Animations to Sprites
 
 ## Setup
-We'll use the raccoon walking animation as an example.
+We'll use a raccoon model from the hit game _Rocket Potatoes_ as an example,
+specifically the walking animation.
 
 Open blender with the file containing the animation. First, select the mesh you want the model to rotate around. For the raccoon, we'll pick its stomach block. Since it's right between each of the raccoon's legs, it makes sense as the place the raccoon would turn around.
 
-[[https://raw.githubusercontent.com/wiki/michaelruigrok/3d-iso-spriter/Images/blender/select-rotation-mesh-raccoon.png | alt=image]]
+![A raccoon model in Blender's 3d view. The lower stomach portion of the animal is selected.](https://raw.githubusercontent.com/wiki/michaelruigrok/3d-iso-spriter/Images/blender/select-rotation-mesh-raccoon.png)
 
 Find the selected mesh in the Outliner (It'll be the one with white text) and rename it to 'Model'. This will be the parent object for the model.
 
-[[https://raw.githubusercontent.com/wiki/michaelruigrok/3d-iso-spriter/Images/blender/rename-selected-mesh.png | alt=image]]
+![Blender's outline view. One blender object is being renamed.](https://raw.githubusercontent.com/wiki/michaelruigrok/3d-iso-spriter/Images/blender/rename-selected-mesh.png)
 
 Next, select all the other meshes that make up your model. If all your mesh objects are named similarly, e.g. Cube.00X, you can use the select pattern tool to select multiple at once: ` Select > Select Pattern > type in 'Cube*' (Or whatever is equivalent) > hit enter`. Otherwise, manually select the objects with shift+left click in the Outliner view. Make sure you select the parent object 'Model' last, such that it has white text (which indicates it is the 'active object'). 
 
-[[https://raw.githubusercontent.com/wiki/michaelruigrok/3d-iso-spriter/Images/blender/select-pattern.png | alt=image]]
+!['Select' sits on the 3d View toolbar, and is currently selected. 'Select Pattern...' is the first entry in the menu, and is highlighted by the mouse.](https://raw.githubusercontent.com/wiki/michaelruigrok/3d-iso-spriter/Images/blender/select-pattern.png)
 
-[[https://raw.githubusercontent.com/wiki/michaelruigrok/3d-iso-spriter/Images/blender/select-pattern-2.png | alt=image]]
+![The 'Select Pattern' form hovers over the 3d view. 'Cub\*' has been entered into the menu. On the side, we see that all the 'Cube.00X' entries in the outline view are selected, with an orange highlight on each of the icons.](https://raw.githubusercontent.com/wiki/michaelruigrok/3d-iso-spriter/Images/blender/select-pattern-2.png)
 
 Then, with the mouse in the 3D view, press Ctrl+P and Set Parent to `Object (Keep Transform)`. 
 
-[[https://raw.githubusercontent.com/wiki/michaelruigrok/3d-iso-spriter/Images/blender/set-parent.png | alt=image]]
+![The 'Set Parent To' menu hovers of the 3d view. The mouse hovers over the 'Object (Keep Transform)' entry.](https://raw.githubusercontent.com/wiki/michaelruigrok/3d-iso-spriter/Images/blender/set-parent.png)
 
 You should be all good to load and run the script as described [above](#Running-Scripts-in-Blender).
 
